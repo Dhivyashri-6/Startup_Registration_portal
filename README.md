@@ -1,13 +1,55 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Startup-registration_portal
-In this I kept a welcome page with details of signup,login,admin and user functionalities.the user can login,register the startup and track the status of the registration.the admin can login and approe or reject the startup
-=======
-# Startup Portal
+# Startup Registration Portal
 
-This project is a platform for managing startups, including user authentication, startup submissions, and admin approvals.
->>>>>>> 38d279a (Initial commit)
-=======
-# Startup-Registration_portal
-A web portal for startup registration with the following features: - Welcome page with signup/login options - User functionality: Register startups and track registration status - Admin functionality: Approve or reject startup applications
->>>>>>> 335ba0adf66ed604d128cf255e907df3917e3e49
+A comprehensive web portal for startup registration and management.
+
+## Features
+
+- **Welcome Page**: Overview of the platform with easy access to Login and Signup.
+- **User Functionality**:
+  - Secure User Registration and Login.
+  - **Register Startup**: Submit startup details including industry, founder info, and description.
+  - **Track Status**: View the real-time status of submitted applications (Pending, Approved, Rejected).
+- **Admin Functionality**:
+  - Admin Dashboard.
+  - **Pending Applications**: Review new startup submissions.
+  - **Approve/Reject**: Approve valid startups or reject them with a reason.
+  - **Rejected Startups**: View a history of rejected applications.
+
+## Tech Stack
+
+- **Frontend**: Angular
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js installed
+- MongoDB installed and running
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/Dhivyashri-6/Startup_Registration_portal.git
+    cd Startup_Registration_portal
+    ```
+
+2.  **Setup Backend**
+    ```bash
+    cd backend
+    npm install
+    # Create a .env file if necessary or configure db.js
+    npm start
+    ```
+
+3.  **Setup Frontend**
+    ```bash
+    cd frontend
+    npm install
+    ng serve
+    ```
+
+4.  **Access the Application**
+    Open your browser and navigate to `http://localhost:4200`.
